@@ -1,0 +1,5 @@
+Version 1
+[x] Setup git repository
+[x] Choose theme for messages {Jeep Facts, Inspirational Message, Lucky Number of the Day}
+[ ] Get user's name
+[ ] Use math.random to randomize all three results
