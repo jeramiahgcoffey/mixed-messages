@@ -1,3 +1,9 @@
+const prompt = require('prompt-sync')();
+///
+/// Get user input
+///
+const userName = prompt('Enter your name: ');
+
 const jeepFacts = [`Dogs are not man's best friend, it's actually Jeeps!`, 
 `The seven slots on a Jeep grille represent the seven continents where Jeeps have traveled.`,
 `On average, Wrangler owners customize their Jeeps more than any other vehicle on the planet.`,
@@ -21,6 +27,7 @@ const randNum = (arr) => {
     return Math.floor(Math.random() * arr.length);
 }
 
+console.log(`Hello, ${userName}!`)
 console.log(`Inspirational Message of the Day: ${inspirationalMessages[randNum(inspirationalMessages)]}`);
 console.log(`Your Lucky Number is: ${luckyNumbers[randNum(luckyNumbers)]}`);
 console.log(`Here's a Random Jeep Fact: ${jeepFacts[randNum(jeepFacts)]}`);
